@@ -6,7 +6,7 @@ import Login from "./routes/login";
 import Create from "./routes/create-account";
 import { createGlobalStyle } from "styled-components";
 import reset from "styled-reset";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import LoadingScreen from "./components/loading-screen";
 
 const router = createBrowserRouter([
